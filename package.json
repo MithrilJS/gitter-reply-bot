@@ -1,0 +1,23 @@
+{
+  "name": "gitter-reply-bot",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The reply bot for the legacy Mithril chat rooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pygy/gitter-reply-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pygy/gitter-reply-bot/issues"
+  },
+  "homepage": "https://github.com/pygy/gitter-reply-bot#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

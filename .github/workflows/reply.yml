@@ -1,0 +1,16 @@
+on:
+  schedule:
+    - cron: "0/20 * * * *"
+
+jobs:
+  test-cli:
+    runs-on: ubuntu-latest
+    name: Gandalf auto-reply to the Gitter channels
+
+    steps:
+    # https://github.com/actions/checkout#Push-a-commit-using-the-built-in-token
+    - uses: actions/checkout@v2
+    - run: ./reply.sh
+      env:
+        GANDALF_GITTER_TOKEN: ${{secrets.GANDALF_GITTER_TOKEN}}
+
