@@ -11,11 +11,12 @@ GANDALF_ID='57a33f9b40f3a6eec05deab8'
 
 function getLastMessageUserIdForRoom() {
     ROOM_ID=$1
-    curl -i \
+    curl \
         -H "Accept: application/json" \
         -H "Authorization: Bearer $GANDALF_GITTER_TOKEN" \
         "https://api.gitter.im/v1/rooms/$ROOM_ID/chatMessages?limit=1" \
-        | grep -Po '"fromUser"((?!"id").)*"id"((?!").)*"[^"]+' \
+        | ./json/JSON.sh \
+        | grep -Po '"fromUser","id"\]\s*"[^"]*' \
         | grep -Po '[^"]+$'
 }
 
