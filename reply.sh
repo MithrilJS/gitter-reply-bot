@@ -39,7 +39,7 @@ function postIfNeeded () {
         echo "Nothing to do in $ROOM_NAME"
     else
         echo "Repling to message in $ROOM_NAME"
-        # postMessage $ROOM_ID
+        postMessage $ROOM_ID
     fi
 }
 
