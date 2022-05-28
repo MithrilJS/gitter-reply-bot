@@ -2,10 +2,9 @@
 
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 MESSAGE="\
-Hello, fellow traveler, before you lose yourself in this derelict place, \
-I'll enjoin you to swiftly go to https://mithril.zulipchat.com where life abounds \
-and conversations flow.\n\nSpread the word around so that others don't get astray. \
-\n\nUpdate the links that lead you here, or signal the issue to those who can." 
+Hello, fellow traveler! Don't lose yourself in this derelict place... \
+Join us over at https://mithril.zulipchat.com where life abounds \
+and conversations flow.\n\nYes! ... and spread the word around so that others don't get astray." 
 
 GANDALF_ID='57a33f9b40f3a6eec05deab8'
 
