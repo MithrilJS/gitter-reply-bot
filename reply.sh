@@ -3,8 +3,8 @@
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 MESSAGE="\
 Hello, fellow traveler, before you lose yourself in this derelict place, \
-I'll enjoin you to swiftly go to https://mithril.zulip.com where life abounds \
-and conversations flow.\n\n... and spread the word around so that others don't get astray. \
+I'll enjoin you to swiftly go to https://mithril.zulipchat.com where life abounds \
+and conversations flow.\n\nSpread the word around so that others don't get astray. \
 \n\nUpdate the links that lead you here, or signal the issue to those who can." 
 
 GANDALF_ID='57a33f9b40f3a6eec05deab8'
