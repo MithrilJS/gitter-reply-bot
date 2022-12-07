@@ -2,7 +2,7 @@
 
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 MESSAGE="\
-Hello, fellow traveler! Don't lose yourself in this derelict place... \
+Hello, fellow traveler! Don't get lost in this derelict place... \
 Join us over at https://mithril.zulipchat.com where life abounds \
 and conversations flow.\n\nYes! ... and spread the word around so that others don't get astray." 
 
