@@ -9,7 +9,7 @@ jobs:
 
     steps:
     # https://github.com/actions/checkout#Push-a-commit-using-the-built-in-token
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - run: ./reply.sh
       env:
         GANDALF_GITTER_TOKEN: ${{secrets.GANDALF_GITTER_TOKEN}}
