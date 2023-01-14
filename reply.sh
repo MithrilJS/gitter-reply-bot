@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -euo pipefail
+
 PATH="/opt/homebrew/opt/grep/libexec/gnubin:$PATH"
 MESSAGE="\
 Hello, fellow traveler! Don't get lost in this derelict place... \
